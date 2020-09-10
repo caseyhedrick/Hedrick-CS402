@@ -22,9 +22,9 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func concatTapped(_ sender: Any) {
-        guard firstNameTextField.text!.isEmpty else {
-            return
-        }
+ //       guard //firstNameTextField.text!.isEmpty else {
+  //          return
+  //      }
         let concatenatedString =  "Hello \(firstNameTextField.text!) \(lastNameTextField.text!), nice to meet you!"
 //        print(firstNameTextField.text)
         
