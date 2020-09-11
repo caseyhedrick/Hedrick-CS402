@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB441068250AEC6B002DD222 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB441067250AEC6B002DD222 /* ThirdViewController.swift */; };
 		EB50786B2509B56C002DC04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50786A2509B56C002DC04B /* AppDelegate.swift */; };
 		EB50786D2509B56C002DC04B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50786C2509B56C002DC04B /* SceneDelegate.swift */; };
 		EB50786F2509B56C002DC04B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50786E2509B56C002DC04B /* FirstViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB441067250AEC6B002DD222 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		EB5078672509B56C002DC04B /* Homework 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB50786A2509B56C002DC04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB50786C2509B56C002DC04B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		EB5078692509B56C002DC04B /* Homework 1 */ = {
 			isa = PBXGroup;
 			children = (
+				EB441067250AEC6B002DD222 /* ThirdViewController.swift */,
 				EB50786A2509B56C002DC04B /* AppDelegate.swift */,
 				EB50786C2509B56C002DC04B /* SceneDelegate.swift */,
 				EB50786E2509B56C002DC04B /* FirstViewController.swift */,
@@ -265,6 +268,7 @@
 				EB5078712509B56C002DC04B /* SecondViewController.swift in Sources */,
 				EB50786F2509B56C002DC04B /* FirstViewController.swift in Sources */,
 				EB50786B2509B56C002DC04B /* AppDelegate.swift in Sources */,
+				EB441068250AEC6B002DD222 /* ThirdViewController.swift in Sources */,
 				EB50786D2509B56C002DC04B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
