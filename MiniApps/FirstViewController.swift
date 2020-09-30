@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import ActivityIndicatorView
 
 class FirstViewController: UIViewController {
 
@@ -18,8 +20,7 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+         }
 
     @IBAction func concatTapped(_ sender: Any) {
  //       guard //firstNameTextField.text!.isEmpty else {
