@@ -10,7 +10,7 @@
         <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <relationship name="address" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Address" inverseName="location" inverseEntity="Address"/>
-        <relationship name="meetings" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meetings" inverseName="locaiton" inverseEntity="Meetings"/>
+        <relationship name="meetings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meetings" inverseName="location" inverseEntity="Meetings"/>
     </entity>
     <entity name="Meetings" representedClassName="Meetings" syncable="YES" codeGenerationType="class">
         <attribute name="endTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
@@ -18,7 +18,7 @@
         <attribute name="meetingDescription" optional="YES" attributeType="String"/>
         <attribute name="startTIme" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="topic" optional="YES" attributeType="String"/>
-        <relationship name="locaiton" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="meetings" inverseEntity="Location"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="meetings" inverseEntity="Location"/>
     </entity>
     <elements>
         <element name="Address" positionX="7" positionY="255" width="128" height="103"/>

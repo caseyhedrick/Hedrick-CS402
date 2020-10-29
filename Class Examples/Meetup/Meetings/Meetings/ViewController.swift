@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         return 5
     }
     
@@ -22,7 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: IndexPath, animated: false)
+        tableView.deselectRow(at: indexPath, animated: false)
     }
     
 
@@ -32,5 +33,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
 
+    @IBAction func addMeetingTapped(_ sender: Any) {
+        let meetingViewController = (storyboard?.instantiateViewController(identifier: "MeetingViewController"))!
+        present(meetingViewController, animated: true, completion: nil)
+    }
 }
 
