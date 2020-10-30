@@ -1,0 +1,6 @@
+framework module MenuButton {
+  umbrella header "MenuButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

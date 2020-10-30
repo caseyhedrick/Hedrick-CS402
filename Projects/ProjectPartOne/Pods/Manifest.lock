@@ -1,0 +1,16 @@
+PODS:
+  - MenuButton (1.0.1)
+
+DEPENDENCIES:
+  - MenuButton (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - MenuButton
+
+SPEC CHECKSUMS:
+  MenuButton: 4139cde96db5439b59391e53991ac4ec0957d952
+
+PODFILE CHECKSUM: b5e4fd27c47c87a5e8b8bfc9c7e003ab0ca21205
+
+COCOAPODS: 1.9.3
