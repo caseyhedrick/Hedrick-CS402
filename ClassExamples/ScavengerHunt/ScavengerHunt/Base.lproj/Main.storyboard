@@ -143,7 +143,9 @@
                             <constraint firstItem="bdj-Zp-ExV" firstAttribute="trailing" secondItem="Uft-TQ-mca" secondAttribute="trailing" constant="20" id="jml-AR-tXW"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="H53-1M-muZ"/>
+                    <navigationItem key="navigationItem" id="H53-1M-muZ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QWi-M2-MXb"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="yXw-ly-KXA" id="v2D-K1-dsI"/>
                     </connections>
@@ -201,7 +203,9 @@
                             <constraint firstItem="4Ib-GV-C5l" firstAttribute="trailing" secondItem="sgh-cF-fvj" secondAttribute="trailing" constant="28" id="ub9-Y5-gmA"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="KZp-XJ-IEp"/>
+                    <navigationItem key="navigationItem" id="KZp-XJ-IEp">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="x6S-6N-Men"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="p6C-PD-l7u" id="Leh-K8-dfy"/>
                     </connections>
@@ -268,7 +272,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="53q-ah-OQN"/>
+        <segue reference="Y23-ym-eHC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

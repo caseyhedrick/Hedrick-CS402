@@ -9,18 +9,27 @@ import UIKit
 import CoreLocation
 import MapKit
 
-class MarkMapViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLLocationManagerDelegate{
+class MarkMapViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLLocationManagerDelegate
+{
+     
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var mapView: MKMapView!
     
+   
     
     let imagePickerController = UIImagePickerController()
         
-        let locationManager = CLLocationManager()
+    let locationManager = CLLocationManager()
+    
+    private let pickerViewDataSource = ["Baseball", "Basketball", "Football", "Soccer", "Softball", "Other"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        pickerView.dataSource = self
+        pickerView.delegate = self
+        
     
         imagePickerController.delegate = self
         imagePickerController.allowsEditing = true
@@ -86,5 +95,9 @@ class MarkMapViewController: UIViewController,UIImagePickerControllerDelegate, U
         
         dismiss(animated: true, completion: nil)
     }
+
    
+   }
+
+
 }

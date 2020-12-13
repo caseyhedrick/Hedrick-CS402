@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD42CE940A64DD6F3743459 /* Pods_FindMyFieldFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB91D44822344F7F906EC60 /* Pods_FindMyFieldFinal.framework */; };
+		EB4A3B132585D87B00337BB8 /* FieldMapPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A3B122585D87B00337BB8 /* FieldMapPinViewController.swift */; };
+		EB4A3B162585DA5300337BB8 /* FieldMapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A3B152585DA5300337BB8 /* FieldMapPin.swift */; };
+		EBD3381E25848C4700C091FF /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3381D25848C4700C091FF /* WebServices.swift */; };
+		EBDE05F22583EF2A00553F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE05F12583EF2A00553F3F /* AppDelegate.swift */; };
+		EBDE05F42583EF2A00553F3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE05F32583EF2A00553F3F /* SceneDelegate.swift */; };
+		EBDE05F62583EF2A00553F3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE05F52583EF2A00553F3F /* ViewController.swift */; };
+		EBDE05FC2583EF2A00553F3F /* FindMyFieldFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBDE05FA2583EF2A00553F3F /* FindMyFieldFinal.xcdatamodeld */; };
+		EBDE05FE2583EF2A00553F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDE05FD2583EF2A00553F3F /* Assets.xcassets */; };
+		EBDE06012583EF2A00553F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDE05FF2583EF2A00553F3F /* LaunchScreen.storyboard */; };
+		EBDE060A2583F0B400553F3F /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE06092583F0B400553F3F /* DatabaseController.swift */; };
+		EBDE060D2583F0E300553F3F /* FindMyFieldListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE060C2583F0E300553F3F /* FindMyFieldListViewController.swift */; };
+		EBDE06112583F0F000553F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDE060F2583F0F000553F3F /* Main.storyboard */; };
+		EBDE06152583F11500553F3F /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE06142583F11500553F3F /* LocationController.swift */; };
+		EBDE06182583F12000553F3F /* FindMyFieldCRUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE06172583F12000553F3F /* FindMyFieldCRUDViewController.swift */; };
+		EBDE061B2583F12D00553F3F /* FindMyFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE061A2583F12D00553F3F /* FindMyFieldController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6345E35B06C660E095C12D07 /* Pods-FindMyFieldFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFieldFinal.debug.xcconfig"; path = "Target Support Files/Pods-FindMyFieldFinal/Pods-FindMyFieldFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB91D44822344F7F906EC60 /* Pods_FindMyFieldFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyFieldFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B863ED6157C2CDE8C96447 /* Pods-FindMyFieldFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFieldFinal.release.xcconfig"; path = "Target Support Files/Pods-FindMyFieldFinal/Pods-FindMyFieldFinal.release.xcconfig"; sourceTree = "<group>"; };
+		EB4A3B122585D87B00337BB8 /* FieldMapPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldMapPinViewController.swift; sourceTree = "<group>"; };
+		EB4A3B152585DA5300337BB8 /* FieldMapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldMapPin.swift; sourceTree = "<group>"; };
+		EBD3381D25848C4700C091FF /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		EBDE05EE2583EF2A00553F3F /* FindMyFieldFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFieldFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDE05F12583EF2A00553F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBDE05F32583EF2A00553F3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBDE05F52583EF2A00553F3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBDE05FB2583EF2A00553F3F /* FindMyFieldFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindMyFieldFinal.xcdatamodel; sourceTree = "<group>"; };
+		EBDE05FD2583EF2A00553F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBDE06002583EF2A00553F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBDE06022583EF2A00553F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDE06092583F0B400553F3F /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseController.swift; path = "../../FindMyField(FinalProject)/FindMyField(FinalProject)/DatabaseController.swift"; sourceTree = "<group>"; };
+		EBDE060C2583F0E300553F3F /* FindMyFieldListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindMyFieldListViewController.swift; path = "../../FindMyField(FinalProject)/FindMyField(FinalProject)/FindMyFieldListViewController.swift"; sourceTree = "<group>"; };
+		EBDE06102583F0F000553F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../FindMyField(FinalProject)/FindMyField(FinalProject)/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		EBDE06142583F11500553F3F /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationController.swift; path = "../../FindMyField(FinalProject)/FindMyField(FinalProject)/LocationController.swift"; sourceTree = "<group>"; };
+		EBDE06172583F12000553F3F /* FindMyFieldCRUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindMyFieldCRUDViewController.swift; path = "../../FindMyField(FinalProject)/FindMyField(FinalProject)/FindMyFieldCRUDViewController.swift"; sourceTree = "<group>"; };
+		EBDE061A2583F12D00553F3F /* FindMyFieldController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindMyFieldController.swift; path = "../../FindMyField(FinalProject)/FindMyField(FinalProject)/FindMyFieldController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBDE05EB2583EF2A00553F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD42CE940A64DD6F3743459 /* Pods_FindMyFieldFinal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805FCE5B5700AADDC52FBC13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6345E35B06C660E095C12D07 /* Pods-FindMyFieldFinal.debug.xcconfig */,
+				C2B863ED6157C2CDE8C96447 /* Pods-FindMyFieldFinal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBDE05E52583EF2A00553F3F = {
+			isa = PBXGroup;
+			children = (
+				EBDE05F02583EF2A00553F3F /* FindMyFieldFinal */,
+				EBDE05EF2583EF2A00553F3F /* Products */,
+				805FCE5B5700AADDC52FBC13 /* Pods */,
+				FC647FB36327F8AE75D01CD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBDE05EF2583EF2A00553F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE05EE2583EF2A00553F3F /* FindMyFieldFinal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBDE05F02583EF2A00553F3F /* FindMyFieldFinal */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE05F12583EF2A00553F3F /* AppDelegate.swift */,
+				EBDE05F32583EF2A00553F3F /* SceneDelegate.swift */,
+				EBDE05F52583EF2A00553F3F /* ViewController.swift */,
+				EBDE06092583F0B400553F3F /* DatabaseController.swift */,
+				EBDE060C2583F0E300553F3F /* FindMyFieldListViewController.swift */,
+				EBDE06142583F11500553F3F /* LocationController.swift */,
+				EBDE06172583F12000553F3F /* FindMyFieldCRUDViewController.swift */,
+				EBDE061A2583F12D00553F3F /* FindMyFieldController.swift */,
+				EBDE060F2583F0F000553F3F /* Main.storyboard */,
+				EBDE05FD2583EF2A00553F3F /* Assets.xcassets */,
+				EBDE05FF2583EF2A00553F3F /* LaunchScreen.storyboard */,
+				EBDE06022583EF2A00553F3F /* Info.plist */,
+				EBDE05FA2583EF2A00553F3F /* FindMyFieldFinal.xcdatamodeld */,
+				EBD3381D25848C4700C091FF /* WebServices.swift */,
+				EB4A3B122585D87B00337BB8 /* FieldMapPinViewController.swift */,
+				EB4A3B152585DA5300337BB8 /* FieldMapPin.swift */,
+			);
+			path = FindMyFieldFinal;
+			sourceTree = "<group>";
+		};
+		FC647FB36327F8AE75D01CD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB91D44822344F7F906EC60 /* Pods_FindMyFieldFinal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBDE05ED2583EF2A00553F3F /* FindMyFieldFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDE06052583EF2A00553F3F /* Build configuration list for PBXNativeTarget "FindMyFieldFinal" */;
+			buildPhases = (
+				EA1B370A9E68D53A08D96BB0 /* [CP] Check Pods Manifest.lock */,
+				EBDE05EA2583EF2A00553F3F /* Sources */,
+				EBDE05EB2583EF2A00553F3F /* Frameworks */,
+				EBDE05EC2583EF2A00553F3F /* Resources */,
+				EB20D83C612516D784A11754 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyFieldFinal;
+			productName = FindMyFieldFinal;
+			productReference = EBDE05EE2583EF2A00553F3F /* FindMyFieldFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBDE05E62583EF2A00553F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EBDE05ED2583EF2A00553F3F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EBDE05E92583EF2A00553F3F /* Build configuration list for PBXProject "FindMyFieldFinal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBDE05E52583EF2A00553F3F;
+			productRefGroup = EBDE05EF2583EF2A00553F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBDE05ED2583EF2A00553F3F /* FindMyFieldFinal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBDE05EC2583EF2A00553F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDE06012583EF2A00553F3F /* LaunchScreen.storyboard in Resources */,
+				EBDE05FE2583EF2A00553F3F /* Assets.xcassets in Resources */,
+				EBDE06112583F0F000553F3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA1B370A9E68D53A08D96BB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyFieldFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB20D83C612516D784A11754 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyFieldFinal/Pods-FindMyFieldFinal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyFieldFinal/Pods-FindMyFieldFinal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindMyFieldFinal/Pods-FindMyFieldFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBDE05EA2583EF2A00553F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDE060A2583F0B400553F3F /* DatabaseController.swift in Sources */,
+				EBDE05F62583EF2A00553F3F /* ViewController.swift in Sources */,
+				EBDE061B2583F12D00553F3F /* FindMyFieldController.swift in Sources */,
+				EBDE060D2583F0E300553F3F /* FindMyFieldListViewController.swift in Sources */,
+				EBDE05F22583EF2A00553F3F /* AppDelegate.swift in Sources */,
+				EB4A3B162585DA5300337BB8 /* FieldMapPin.swift in Sources */,
+				EBDE05FC2583EF2A00553F3F /* FindMyFieldFinal.xcdatamodeld in Sources */,
+				EBD3381E25848C4700C091FF /* WebServices.swift in Sources */,
+				EBDE05F42583EF2A00553F3F /* SceneDelegate.swift in Sources */,
+				EBDE06182583F12000553F3F /* FindMyFieldCRUDViewController.swift in Sources */,
+				EBDE06152583F11500553F3F /* LocationController.swift in Sources */,
+				EB4A3B132585D87B00337BB8 /* FieldMapPinViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBDE05FF2583EF2A00553F3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDE06002583EF2A00553F3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EBDE060F2583F0F000553F3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDE06102583F0F000553F3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBDE06032583EF2A00553F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBDE06042583EF2A00553F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBDE06062583EF2A00553F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6345E35B06C660E095C12D07 /* Pods-FindMyFieldFinal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXY8Q3X8BQ;
+				INFOPLIST_FILE = FindMyFieldFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.boisestate.FindMyFieldFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBDE06072583EF2A00553F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B863ED6157C2CDE8C96447 /* Pods-FindMyFieldFinal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXY8Q3X8BQ;
+				INFOPLIST_FILE = FindMyFieldFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.boisestate.FindMyFieldFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBDE05E92583EF2A00553F3F /* Build configuration list for PBXProject "FindMyFieldFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDE06032583EF2A00553F3F /* Debug */,
+				EBDE06042583EF2A00553F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDE06052583EF2A00553F3F /* Build configuration list for PBXNativeTarget "FindMyFieldFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDE06062583EF2A00553F3F /* Debug */,
+				EBDE06072583EF2A00553F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBDE05FA2583EF2A00553F3F /* FindMyFieldFinal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBDE05FB2583EF2A00553F3F /* FindMyFieldFinal.xcdatamodel */,
+			);
+			currentVersion = EBDE05FB2583EF2A00553F3F /* FindMyFieldFinal.xcdatamodel */;
+			path = FindMyFieldFinal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBDE05E62583EF2A00553F3F /* Project object */;
+}

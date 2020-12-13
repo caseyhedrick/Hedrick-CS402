@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class GeoCasheListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -33,6 +34,19 @@ class GeoCasheListViewController: UIViewController, UITableViewDelegate, UITable
         LocationController.startGPS()
         
         NotificationCenter.default.addObserver(self, selector: #selector(geoCacheWasUpdated(notification:)), name:NSNotification.Name ("NEW_GEOCACHE"), object: nil)
+        
+        let fetchReqest:NSFetchRequest = GeoCache.fetchRequest()
+        
+        do{
+            let results = try DatabaseController.getContext().fetch(fetchReqest)
+            if (results.count > 0){
+                
+            }
+        }
+        catch{
+            print("error")
+        }
+    
     }
     
     override func viewDidAppear(_ animated: Bool) {

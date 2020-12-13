@@ -17,6 +17,7 @@
 		EB084205256C9BAB00852E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB084203256C9BAB00852E6D /* Main.storyboard */; };
 		EB084209256C9BBE00852E6D /* ProjectPartOne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB084207256C9BBE00852E6D /* ProjectPartOne.xcdatamodeld */; };
 		EB08420E256C9CE100852E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB08420D256C9CE100852E6D /* Assets.xcassets */; };
+		EB482AAE258306CE0066E565 /* MyFieldsCRUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB482AAD258306CE0066E565 /* MyFieldsCRUDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		EB084204256C9BAB00852E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../Projects/ProjectPartOne/ProjectPartOne/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB084208256C9BBE00852E6D /* ProjectPartOne.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectPartOne.xcdatamodel; sourceTree = "<group>"; };
 		EB08420D256C9CE100852E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../ClassExamples/ScavengerHunt/ScavengerHunt/Assets.xcassets; sourceTree = "<group>"; };
+		EB482AAD258306CE0066E565 /* MyFieldsCRUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFieldsCRUDViewController.swift; sourceTree = "<group>"; };
 		FB45A2945866D12FECA621DF /* Pods-ProjectPart2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectPart2.debug.xcconfig"; path = "Target Support Files/Pods-ProjectPart2/Pods-ProjectPart2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 				EB0841EC256C983F00852E6D /* LaunchScreen.storyboard */,
 				EB0841EF256C983F00852E6D /* Info.plist */,
 				EB084207256C9BBE00852E6D /* ProjectPartOne.xcdatamodeld */,
+				EB482AAD258306CE0066E565 /* MyFieldsCRUDViewController.swift */,
 			);
 			path = ProjectPart2;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				EB084209256C9BBE00852E6D /* ProjectPartOne.xcdatamodeld in Sources */,
 				EB084200256C9B8800852E6D /* MyFieldsViewController.swift in Sources */,
 				EB0841FB256C9B7E00852E6D /* MarkMapViewController.swift in Sources */,
+				EB482AAE258306CE0066E565 /* MyFieldsCRUDViewController.swift in Sources */,
 				EB0841DF256C983E00852E6D /* AppDelegate.swift in Sources */,
 				EB0841E1256C983E00852E6D /* SceneDelegate.swift in Sources */,
 			);
