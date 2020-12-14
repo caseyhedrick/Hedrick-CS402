@@ -48,7 +48,6 @@ class FindMyFieldController: NSObject {
         field.fieldName = newfieldName
         field.fieldAgeGroup = newfieldAgeGroup
         field.fieldType = newfieldType
-   //     field.fieldImage = newFieldImage
         field.location = Location(context: DatabaseController.getContext())
         field.location?.latitude = newLatitude
         field.location?.longitude = newLongitude

@@ -16,7 +16,7 @@ class LocationController: NSObject, CLLocationManagerDelegate {
     
     class func startGPS(){
         locationManager.delegate = sharedLocationController
-        locationManager.distanceFilter = 100
+        locationManager.distanceFilter = 1000
         locationManager.desiredAccuracy = kCLLocationAccuracyReduced
         
         locationManager.requestWhenInUseAuthorization()
