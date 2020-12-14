@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Field" representedClassName="Field" syncable="YES" codeGenerationType="class">
+        <attribute name="fieldAgeGroup" optional="YES" attributeType="String"/>
+        <attribute name="fieldImage" optional="YES" attributeType="String"/>
+        <attribute name="fieldName" optional="YES" attributeType="String"/>
+        <attribute name="fieldType" optional="YES" attributeType="String"/>
+        <relationship name="location" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Location" inverseName="location" inverseEntity="Location"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES" codeGenerationType="class">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="latitiude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Field" inverseName="location" inverseEntity="Field"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify"/>
+        <relationship name="types" optional="YES" maxCount="1" deletionRule="Nullify"/>
+    </entity>
+    <elements>
+        <element name="Field" positionX="-352" positionY="-65" width="128" height="118"/>
+        <element name="Location" positionX="-54" positionY="18" width="128" height="148"/>
+    </elements>
+</model>

@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB20CF7C258335D40026B13C /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20CF7B258335D40026B13C /* LocationController.swift */; };
+		EB20CF8325833BDE0026B13C /* FindMyFieldListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20CF8225833BDE0026B13C /* FindMyFieldListViewController.swift */; };
+		EB20CF8625833E2B0026B13C /* FindMyFieldCRUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20CF8525833E2B0026B13C /* FindMyFieldCRUDViewController.swift */; };
+		EB482ABD258307E90066E565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB482ABC258307E90066E565 /* AppDelegate.swift */; };
+		EB482ABF258307E90066E565 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB482ABE258307E90066E565 /* SceneDelegate.swift */; };
+		EB482AC1258307E90066E565 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB482AC0258307E90066E565 /* ViewController.swift */; };
+		EB482AC4258307E90066E565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB482AC2258307E90066E565 /* Main.storyboard */; };
+		EB482AC9258307EA0066E565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB482AC8258307EA0066E565 /* Assets.xcassets */; };
+		EB482ACC258307EA0066E565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB482ACA258307EA0066E565 /* LaunchScreen.storyboard */; };
+		EB482AD5258309030066E565 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB482AD4258309030066E565 /* DatabaseController.swift */; };
+		EBDE05DE2583EA9F00553F3F /* FindMyFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE05DD2583EA9F00553F3F /* FindMyFieldController.swift */; };
+		EBDE05E32583EE3F00553F3F /* FindMyFieldData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBDE05E12583EE3F00553F3F /* FindMyFieldData.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB20CF7B258335D40026B13C /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		EB20CF8225833BDE0026B13C /* FindMyFieldListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFieldListViewController.swift; sourceTree = "<group>"; };
+		EB20CF8525833E2B0026B13C /* FindMyFieldCRUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFieldCRUDViewController.swift; sourceTree = "<group>"; };
+		EB482AB9258307E90066E565 /* FindMyField(FinalProject).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FindMyField(FinalProject).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB482ABC258307E90066E565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB482ABE258307E90066E565 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB482AC0258307E90066E565 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB482AC3258307E90066E565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB482AC8258307EA0066E565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB482ACB258307EA0066E565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB482ACD258307EA0066E565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB482AD4258309030066E565 /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		EBDE05DD2583EA9F00553F3F /* FindMyFieldController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFieldController.swift; sourceTree = "<group>"; };
+		EBDE05E22583EE3F00553F3F /* FindMyFieldData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindMyFieldData.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB482AB6258307E90066E565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB482AB0258307E90066E565 = {
+			isa = PBXGroup;
+			children = (
+				EB482ABB258307E90066E565 /* FindMyField(FinalProject) */,
+				EB482ABA258307E90066E565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB482ABA258307E90066E565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB482AB9258307E90066E565 /* FindMyField(FinalProject).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB482ABB258307E90066E565 /* FindMyField(FinalProject) */ = {
+			isa = PBXGroup;
+			children = (
+				EB482ABC258307E90066E565 /* AppDelegate.swift */,
+				EB482ABE258307E90066E565 /* SceneDelegate.swift */,
+				EB482AC0258307E90066E565 /* ViewController.swift */,
+				EB482AC2258307E90066E565 /* Main.storyboard */,
+				EB482AC8258307EA0066E565 /* Assets.xcassets */,
+				EB482ACA258307EA0066E565 /* LaunchScreen.storyboard */,
+				EB482ACD258307EA0066E565 /* Info.plist */,
+				EB482AD4258309030066E565 /* DatabaseController.swift */,
+				EB20CF7B258335D40026B13C /* LocationController.swift */,
+				EB20CF8225833BDE0026B13C /* FindMyFieldListViewController.swift */,
+				EB20CF8525833E2B0026B13C /* FindMyFieldCRUDViewController.swift */,
+				EBDE05DD2583EA9F00553F3F /* FindMyFieldController.swift */,
+				EBDE05E12583EE3F00553F3F /* FindMyFieldData.xcdatamodeld */,
+			);
+			path = "FindMyField(FinalProject)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB482AB8258307E90066E565 /* FindMyField(FinalProject) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB482AD0258307EA0066E565 /* Build configuration list for PBXNativeTarget "FindMyField(FinalProject)" */;
+			buildPhases = (
+				EB482AB5258307E90066E565 /* Sources */,
+				EB482AB6258307E90066E565 /* Frameworks */,
+				EB482AB7258307E90066E565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FindMyField(FinalProject)";
+			productName = "FindMyField(FinalProject)";
+			productReference = EB482AB9258307E90066E565 /* FindMyField(FinalProject).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB482AB1258307E90066E565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EB482AB8258307E90066E565 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EB482AB4258307E90066E565 /* Build configuration list for PBXProject "FindMyField(FinalProject)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB482AB0258307E90066E565;
+			productRefGroup = EB482ABA258307E90066E565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB482AB8258307E90066E565 /* FindMyField(FinalProject) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB482AB7258307E90066E565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB482ACC258307EA0066E565 /* LaunchScreen.storyboard in Resources */,
+				EB482AC9258307EA0066E565 /* Assets.xcassets in Resources */,
+				EB482AC4258307E90066E565 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB482AB5258307E90066E565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDE05E32583EE3F00553F3F /* FindMyFieldData.xcdatamodeld in Sources */,
+				EB482AD5258309030066E565 /* DatabaseController.swift in Sources */,
+				EB20CF8325833BDE0026B13C /* FindMyFieldListViewController.swift in Sources */,
+				EBDE05DE2583EA9F00553F3F /* FindMyFieldController.swift in Sources */,
+				EB482AC1258307E90066E565 /* ViewController.swift in Sources */,
+				EB482ABD258307E90066E565 /* AppDelegate.swift in Sources */,
+				EB20CF7C258335D40026B13C /* LocationController.swift in Sources */,
+				EB20CF8625833E2B0026B13C /* FindMyFieldCRUDViewController.swift in Sources */,
+				EB482ABF258307E90066E565 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB482AC2258307E90066E565 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB482AC3258307E90066E565 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB482ACA258307EA0066E565 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB482ACB258307EA0066E565 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB482ACE258307EA0066E565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB482ACF258307EA0066E565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB482AD1258307EA0066E565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXY8Q3X8BQ;
+				INFOPLIST_FILE = "FindMyField(FinalProject)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.boisestate.FindMyField-FinalProject-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB482AD2258307EA0066E565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXY8Q3X8BQ;
+				INFOPLIST_FILE = "FindMyField(FinalProject)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.boisestate.FindMyField-FinalProject-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB482AB4258307E90066E565 /* Build configuration list for PBXProject "FindMyField(FinalProject)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB482ACE258307EA0066E565 /* Debug */,
+				EB482ACF258307EA0066E565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB482AD0258307EA0066E565 /* Build configuration list for PBXNativeTarget "FindMyField(FinalProject)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB482AD1258307EA0066E565 /* Debug */,
+				EB482AD2258307EA0066E565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBDE05E12583EE3F00553F3F /* FindMyFieldData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBDE05E22583EE3F00553F3F /* FindMyFieldData.xcdatamodel */,
+			);
+			currentVersion = EBDE05E22583EE3F00553F3F /* FindMyFieldData.xcdatamodel */;
+			path = FindMyFieldData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB482AB1258307E90066E565 /* Project object */;
+}

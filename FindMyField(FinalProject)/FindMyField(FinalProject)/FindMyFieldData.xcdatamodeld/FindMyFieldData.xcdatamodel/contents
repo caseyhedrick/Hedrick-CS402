@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Field" representedClassName="Field" syncable="YES" codeGenerationType="class">
+        <attribute name="fieldAgeGroup" optional="YES" attributeType="String"/>
+        <attribute name="fieldImage" optional="YES" attributeType="String"/>
+        <attribute name="fieldName" optional="YES" attributeType="String"/>
+        <attribute name="fieldType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES" codeGenerationType="class">
+        <attribute name="fieldCity" optional="YES" attributeType="String"/>
+        <attribute name="fieldState" optional="YES" attributeType="String"/>
+        <attribute name="latitiude" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Field" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Location" positionX="-54" positionY="18" width="128" height="103"/>
+    </elements>
+</model>
