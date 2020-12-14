@@ -207,11 +207,11 @@
             </objects>
             <point key="canvasLocation" x="4062.3188405797105" y="-569.19642857142856"/>
         </scene>
-        <!--Item 2-->
+        <!--Map of Fields-->
         <scene sceneID="uoJ-fY-8Ia">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iJ8-Ws-9t0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="6o6-yK-QjD"/>
+                    <tabBarItem key="tabBarItem" title="Map of Fields" image="map" catalog="system" id="6o6-yK-QjD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="djY-Vl-Bhq">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -226,11 +226,11 @@
             </objects>
             <point key="canvasLocation" x="1324.6376811594205" y="-258.48214285714283"/>
         </scene>
-        <!--Item 1-->
+        <!--Field List-->
         <scene sceneID="gNw-Uz-S8G">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XAT-Tm-DTe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="HB8-wd-EX9"/>
+                    <tabBarItem key="tabBarItem" title="Field List" image="list.dash" catalog="system" id="HB8-wd-EX9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Vp-QX-zXA">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -250,6 +250,8 @@
         <segue reference="zTD-8K-WVJ"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="list.dash" catalog="system" width="128" height="85"/>
+        <image name="map" catalog="system" width="128" height="110"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
